@@ -39,7 +39,7 @@ export default function Section2() {
                         </div>
                         <div className="mt-2">
                             <div className="text-xl lg:text-2x text-light-secondary dark:text-gray-400 font-bold mb-2 ">الأدوات</div>
-                            <div className="flex">
+                            <div className="flex align-start">
                                 <img src={react} className="w-10 ml-5"/>
                                 <img src={vue} className="w-10 ml-5"/>
                                 <img src={postman} className="w-10 ml-5"/>
