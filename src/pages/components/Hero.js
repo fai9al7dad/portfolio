@@ -1,13 +1,11 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import useDarkMode from '../../hook/useDarkMode';
 import heroImage from '../../images/heroImage.jpeg'
 import heroDark from '../../images/heroDark.svg'
 import heroLight from '../../images/heroLight.svg'
 
 
 export default function Hero() {
-    const [colorTheme,setTheme] = useDarkMode();
 
     return (
         <div className="py-10  bg-light-lightBG dark:bg-gray-900 flex justify-center flex-col transition duration-500">
@@ -31,8 +29,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <div>
-                        {colorTheme ==='dark' ? (<img src={heroLight}/>) : (<img src={heroDark}/>)}
-
+                        <img src={heroLight}/>
                     </div>
 
                 </div>
