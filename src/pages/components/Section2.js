@@ -40,11 +40,11 @@ export default function Section2() {
                         <div className="mt-2">
                             <div className="text-xl lg:text-2x text-light-secondary dark:text-gray-400 font-bold mb-2 ">الأدوات</div>
                             <div className="flex align-center">
-                                <img src={react} className="w-10 ml-5"/>
-                                <img src={vue} className="w-10 ml-5"/>
-                                <img src={postman} className="w-10 ml-5"/>
-                                <img src={laravel} className="w-10 ml-5"/>
-                                <img src={mysql} className="w-10 ml-5"/>
+                                <img src={react} className="max-w-10 ml-5"/>
+                                <img src={vue} className="max-w-10 ml-5"/>
+                                <img src={postman} className="max-w-10 ml-5"/>
+                                <img src={laravel} className="max-w-10 ml-5"/>
+                                <img src={mysql} className="max-w-10 ml-5"/>
 
                             </div>
                         </div>
