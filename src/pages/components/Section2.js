@@ -39,12 +39,12 @@ export default function Section2() {
                         </div>
                         <div className="mt-2">
                             <div className="text-xl lg:text-2x text-light-secondary dark:text-gray-400 font-bold mb-2 ">الأدوات</div>
-                            <div className="flex justify-center h-10">
-                                <img src={react} className="max-w-full ml-5"/>
-                                <img src={vue} className="max-w-full ml-5"/>
-                                <img src={postman} className="max-w-full ml-5"/>
-                                <img src={laravel} className="max-w-full ml-5"/>
-                                <img src={mysql} className="max-w-full ml-5"/>
+                            <div className="flex justify-center max-w-full h-10 ">
+                                <img src={react} className="max-w-xss ml-5"/>
+                                <img src={vue} className="max-w-xss ml-5"/>
+                                <img src={postman} className="max-w-xss ml-5"/>
+                                <img src={laravel} className="max-w-xss ml-5"/>
+                                <img src={mysql} className="max-w-xss ml-5"/>
 
                             </div>
                         </div>

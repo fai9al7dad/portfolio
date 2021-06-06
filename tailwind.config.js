@@ -3,6 +3,9 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
+      maxWidth:{
+        'xxs':'2.5rem'
+      },
       colors:{
         dark:{
           'darkBlue': '#243249'
