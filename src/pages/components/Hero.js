@@ -1,6 +1,5 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import DarkModeSwitch from '../../hook/DarkModeSwitch';
 import heroImage from '../../images/heroImage.jpeg'
 import heroDark from '../../images/heroDark.svg'
 import heroLight from '../../images/heroLight.svg'
