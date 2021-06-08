@@ -1,7 +1,6 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import heroImage from '../../images/heroImage.jpeg'
-import heroDark from '../../images/heroDark.svg'
+import heroImage2 from '../../images/heroImage2.jpeg'
 import heroLight from '../../images/heroLight.svg'
 
 
@@ -14,7 +13,7 @@ export default function Hero() {
 
                     <div className="text-center md:text-right flex justify-between items-center md:items-start flex-col w-full">
                         <div>
-                            <img src={heroImage} className="w-20 rounded-lg"/>
+                            <img src={heroImage2} className="w-20 rounded-lg"/>
                             <p className="text-md text-light-secondary dark:text-gray-400 mb-5 lg:mb-0">فيصل حداد</p>
                         </div>
                         <div className="text-2xl lg:text-5xl text-light-primary dark:text-gray-50 font-bold">مبرمج ومصمم مواقع وتطبيقات</div>
