@@ -40,11 +40,11 @@ export default function Section2() {
                         <div className="mt-2">
                             <div className="text-xl lg:text-2x text-light-secondary dark:text-gray-400 font-bold mb-2 ">الأدوات</div>
                             <div className="grid grid-rows-1 grid-flow-col gap-4 h-10 ">
-                                <img src={react} className="max-w-xss ml-5"/>
-                                <img src={vue} className="max-w-xss ml-5"/>
-                                <img src={postman} className="max-w-xss ml-5"/>
-                                <img src={laravel} className="max-w-xss ml-5"/>
-                                <img src={mysql} className="max-w-xss ml-5"/>
+                                <img src={react} className="max-w-xss ml-5" alt="tool logo"/>
+                                <img src={vue} className="max-w-xss ml-5"  alt="tool logo"/>
+                                <img src={postman} className="max-w-xss ml-5"  alt="tool logo"/>
+                                <img src={laravel} className="max-w-xss ml-5"  alt="tool logo"/>
+                                <img src={mysql} className="max-w-xss ml-5"  alt="tool logo"/>
 
                             </div>
                         </div>

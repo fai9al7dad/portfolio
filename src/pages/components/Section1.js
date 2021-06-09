@@ -29,12 +29,12 @@ export default function Section1() {
                         </div>
                         <div className="flex flex-col mt-2 items-center sm:items-start">
                             <div className="text-xl lg:text-2x text-light-secondary dark:text-gray-400 font-bold mb-2">الأدوات</div>
-                            <img src={xdlogo} className="w-10"/>
+                            <img src={xdlogo} className="w-10" alt="adobe xd logo"/>
                         </div>
 
                     </div>
                     <div>
-                        <img src={lightDesign} className="rounded-xl"/>
+                        <img src={lightDesign} className="rounded-xl" alt="adobe xd design"/>
                         <div className="text-sm text-gray-400 text-center mt-5">
                             صورة أثناء تصميم الموقع عن طريق برنامج ADOBE XD
                         </div>

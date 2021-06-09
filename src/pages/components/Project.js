@@ -5,7 +5,7 @@ export default function Project({title, desc, image, link, disabled}) {
         <div className="container mx-auto px-5 mb-20 flex justify-center items-center">
             <div className="bg-white dark:bg-dark-darkBlue shadow-md w-full rounded-lg p-10 grid lg:grid-cols-2 gap-10">
                 <div className="max-h-96 overflow-hidden">
-                    <img src={image} className="rounded-lg"/>
+                    <img src={image} className="rounded-lg" alt="project image"/>
                 </div>
                 <div className="flex flex-col justify-between">
 

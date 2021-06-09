@@ -13,7 +13,7 @@ export default function LargeNavbar() {
             <Link to="/Projects" className="text-gray-400 text-lg ml-20 hover:bg-gray-200 dark:hover:bg-gray-800 px-5 hover:text-light-primary dark:hover:text-white rounded-lg">أعمالي</Link>
             <Link to="/Contact" className="text-gray-50 text-lg px-3 bg-blue-500 rounded">تواصل معي</Link>
 
-            <div className=" mr-20 text-white" onClick={() => setTheme(colorTheme)}>
+            <div role="button" className=" mr-20 text-white" onClick={() => setTheme(colorTheme)}>
               {colorTheme === 'dark' ? (
                 <svg className="w-6 h-6 text-dark-darkBlue rounded-full bg-dark-darkBlue cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
               
