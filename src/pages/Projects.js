@@ -19,7 +19,7 @@ export default function Projects() {
                     المشاريع
                 </div>
                 <Project title="المنظم" desc="موقع باستخدام VUE & LARAVEL لتنظيم المهام ووضع
-                موعد لها ورؤية المواعيد بشكل بسيط ومنظم" link="monathem.herokuapp.com" image={monathem} />
+                موعد لها ورؤية المواعيد بشكل بسيط ومنظم" link="https://monathem.herokuapp.com" image={monathem} />
                 <Project title="موقع حلقة جامع بن عثيمين بجدة" desc="موقع لمتابعة حصاد الطلاب. يتكون من صفحة خاصة بالطالب يسجل فيها انجازه، وصفحة خاصة بالمعلم لمتابعة طلاب حلقته" link="https://khodarwabahar.com/" image={binothaymeen}  disabled ="true"/>
                 <Project title="خضار وبهار" desc="موقع لبيع الخضروات والفواكه مع خاصية الدفع عند الاستلام" link="https://khodarwabahar.com/" image={khodarwabahar}/>
                 <Project title="متجر جمعية البر بمستورة" desc="أضفت المتجر الى الموقع، مع بوابة الدفع تقبل مدى، أبل باي، فيزا" link="http://mastorahbr.org.sa/shop/ " image={mastorahbr} />
