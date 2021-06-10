@@ -21,7 +21,7 @@ export default function Projects() {
                 <Project title="المنظم" desc="موقع باستخدام VUE & LARAVEL لتنظيم المهام ووضع
                 موعد لها ورؤية المواعيد بشكل بسيط ومنظم" link="https://monathem.herokuapp.com" image={monathem} />
                 <Project title="موقع حلقة جامع بن عثيمين بجدة" desc="موقع لمتابعة حصاد الطلاب. يتكون من صفحة خاصة بالطالب يسجل فيها انجازه، وصفحة خاصة بالمعلم لمتابعة طلاب حلقته" link="https://khodarwabahar.com/" image={binothaymeen}  disabled ="true"/>
-                <Project title="خضار وبهار" desc="موقع لبيع الخضروات والفواكه مع خاصية الدفع عند الاستلام" link="https://khodarwabahar.com/" image={khodarwabahar}/>
+                <Project title="خضار وبهار" desc="(غير مكتمل) موقع لبيع الخضروات والفواكه مع خاصية الدفع عند الاستلام" link="https://khodarwabahar.com/" image={khodarwabahar}/>
                 <Project title="متجر جمعية البر بمستورة" desc="أضفت المتجر الى الموقع، مع بوابة الدفع تقبل مدى، أبل باي، فيزا" link="http://mastorahbr.org.sa/shop/ " image={mastorahbr} />
                 <Project title="ارتقاء التصميم للمقاولات العامة" desc="موقع مؤسسة مقاولات عامة. يعرض خدماتهم وصور مشاريعهم" link="http://erteqaa.co/en/home-2/" image={erteqaa} />
                 <Project title="تصميم كناشة الفوائد" desc="تصميم واجهة UI لتطبيق كناشة الفوائد" link="#" image={konasha} disabled="true" />
