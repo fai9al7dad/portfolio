@@ -9,6 +9,7 @@ import erteqaa from '../images/projects/erteqaa.png'
 import mastorahbr from '../images/projects/mastorahbr.png'
 import konasha from '../images/projects/konasha.png'
 import NSPROJECT from '../images/projects/NSPROJECT.png'
+import carplus from '../images/projects/carplus.png'
 
 
 export default function Projects() {
@@ -18,6 +19,7 @@ export default function Projects() {
                 <div className="text-center text-light-primary dark:text-gray-50 font-bold text-5xl mb-10">
                     المشاريع
                 </div>
+                <Project title="كار بلس" desc="صفحة هبوط تعريفية بشركة خاصة بتأجير السيارات الفاخرة. يستخدم الموقع الapi الخاص باحصائيات قوقل لمعرفة احصائيات الزوار (عدد الزائرين، عدد الذين ذهبو الى الروابط الموجودة في الموقع...الخ) مبني بواسطة NUXT فوق VUE" link="https://www.carplus.com" image={carplus} />
                 <Project title="المنظم" desc="موقع باستخدام VUE & LARAVEL لتنظيم المهام ووضع
                 موعد لها ورؤية المواعيد بشكل بسيط ومنظم" link="https://monathem.herokuapp.com" image={monathem} />
                 <Project title="موقع حلقة جامع بن عثيمين بجدة" desc="موقع لمتابعة حصاد الطلاب. يتكون من صفحة خاصة بالطالب يسجل فيها انجازه، وصفحة خاصة بالمعلم لمتابعة طلاب حلقته" link="https://khodarwabahar.com/" image={binothaymeen}  disabled ="true"/>
